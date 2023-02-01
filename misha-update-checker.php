@@ -43,7 +43,7 @@ if( ! class_exists( 'mishaUpdateChecker' ) ) {
 			if( false === $remote || ! $this->cache_allowed ) {
 
 				$remote = wp_remote_get(
-					'localhost/elementortesting/wp-content/uploads/updater/info.json',
+					'localhost/elementortesting/wp-content/plugins/WPAutoUpdatePluginTesting/info.json',
 					array(
 						'timeout' => 10,
 						'headers' => array(
